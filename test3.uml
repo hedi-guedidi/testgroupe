@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_UL2I8GBFEeqBX4Ng3vkOYw" name="test2">
+  <packagedElement xmi:type="uml:Class" xmi:id="_J4M5cGBGEeqBX4Ng3vkOYw" name="course">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TokAQGBGEeqBX4Ng3vkOYw" name="prof" type="_MRfFAGBGEeqBX4Ng3vkOYw" aggregation="composite" association="_TohkAGBGEeqBX4Ng3vkOYw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZQDNMGBGEeqBX4Ng3vkOYw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MRfFAGBGEeqBX4Ng3vkOYw" name="prof"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TohkAGBGEeqBX4Ng3vkOYw" memberEnd="_TokAQGBGEeqBX4Ng3vkOYw _TouYUWBGEeqBX4Ng3vkOYw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ToiyIGBGEeqBX4Ng3vkOYw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ToiyIWBGEeqBX4Ng3vkOYw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TouYUWBGEeqBX4Ng3vkOYw" name="course" type="_J4M5cGBGEeqBX4Ng3vkOYw" association="_TohkAGBGEeqBX4Ng3vkOYw"/>
+  </packagedElement>
+</uml:Model>
