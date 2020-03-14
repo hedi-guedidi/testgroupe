@@ -1,5 +1,5 @@
 = Use case diagram doc :
-The class Cassignment represents the assignment of **1 course**.
+The class Cassignment represents the assignment of *only one course*.
 for this course we have a list of assigned teachers to this course (Assignedteachers).
 TD,TP and CM represent respectivelly the number of hours assigned to each teacher.
 for example Assignedteachers[0] will teach TD[0] hours of TD,TP[0] hours of TP and CM[0] hours of "cours magistral" for the Selectedcourse.
